@@ -3,7 +3,7 @@
     "short_name": "macOS",
     "start_url": "/",
     "display": "standalone",
-    "description": "Painting of macOS ont the web",
+    "description": "macOS Desktop experience for Web",
     "lang": "en-us",
     "dir": "auto",
     "theme_color": "#ffffff",
@@ -20,7 +20,7 @@
     "screenshots": [
         {
             "src": "./icon/manifest/screen.png",
-            "sizes": "2880x1800",
+            "sizes": "1280x800",
             "type": "image/png",
             "description": "A screenshot of the home page"
         }
@@ -28,15 +28,8 @@
     "related_applications": [
         {
             "platform":"windows",
-            "url": " The URL to your app in that app store"
+            "url": "The URL to your app in that app store"
         }
     ],
-    "prefer_related_applications": "false",
-    "shortcuts": [
-        {
-            "name":"The name you would like to be displayed for your shortcut",
-            "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-            "description":"A description of the functionality of this shortcut"
-        }
-    ]
-    }
+    "prefer_related_applications": "false"
+}
