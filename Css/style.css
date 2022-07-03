@@ -763,10 +763,13 @@ li>.menu__container>.grid__controling .control_center--grid {
     font-size: 14px;
     color: transparent;
     font-weight: 900;
+    font-family: ROG Fonts;
+    cursor:  url(./cursor/normal.png), pointer;
 }
 
 .window__taskbar--actions button:nth-child(1)::after {
-    content: "×";
+    content: "";
+    cursor:  url(./cursor/normal.png), pointer;
 }
 
 .window__taskbar--actions button:nth-child(1):hover {
@@ -779,7 +782,8 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .window__taskbar--actions button:nth-child(2)::after {
-    content: "−";
+    content: "";
+    cursor:  url(./cursor/normal.png), pointer;
 }
 
 .window__taskbar--actions button:nth-child(2):hover {
@@ -792,7 +796,8 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .window__taskbar--actions button:nth-child(3)::after {
-    content: "⤡";
+    content: ""; /*⤡*/
+    cursor:  url(./cursor/normal.png), pointer;
 }
 
 .window__taskbar--actions button:nth-child(3):hover {
