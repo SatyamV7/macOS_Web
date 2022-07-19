@@ -51,7 +51,7 @@ body {
     height: 100vh;
     user-select: none;
     font-family: "Lexend", sans-serif;
-    background: url("../background/monterey-dark.jpg");
+    background: url("../background/iridescence.jpg");
     cursor: url(../cursor/normal.png), pointer;
     background-size: cover;
     background-position: center;
@@ -67,8 +67,8 @@ body {
     left: 0;
     color: var(--color-white-900);
     box-shadow: 0 2px 10px var(--color-black-100);
-    /*  background: linear-gradient(to right, #6e1438, #270598, #e54c2d);*/
-    background: hsla(var(--system-color-light-hsl), .3);
+    background: linear-gradient(to right, #6e1438, #270598, #e54c2d);
+    /* background: hsla(var(--system-color-light-hsl), .3);*/
     cursor: url(../cursor/normal.png), pointer;
     display: flex;
     align-items: center;
@@ -349,7 +349,7 @@ li>.menu__container {
     right: 50%;
     height: 24rem;
     transform: translateX(50%);
-    background-color: hsla(var(--system-color-light-hsl), .3);
+    background-color: rgba(224, 222, 222, 0.349);
     backdrop-filter: blur(11px);
     border: 1px solid rgba(70, 50, 77, 0.308);
     box-shadow: 0 7px 15px rgba(26, 26, 26, 0.24);
