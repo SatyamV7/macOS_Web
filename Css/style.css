@@ -685,8 +685,8 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .dock .icon:hover img {
-    margin: 0 0 40px 0;
-    width: 7.1rem;
+    margin: 0 0 70px 0;
+    width: 9.0rem;
 }
 
 .dock .icon:hover+.icon img {
