@@ -51,7 +51,7 @@ body {
     height: 100vh;
     user-select: none;
     font-family: "Lexend", sans-serif;
-    background: url("../background/monterey-dark.jpg");
+    background: url("../background/big-sur-dark.jpg");
     cursor: url(../cursor/normal.png), pointer;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@ body {
     color: var(--color-white-900);
     box-shadow: 0 2px 10px var(--color-black-100);
     /*  background: linear-gradient(to right, #6e1438, #270598, #e54c2d);*/
-    background: hsla(var(--system-color-light-hsl), .3);
+    background: hsla(var(--system-color-light-hsl), .5);
     cursor: url(../cursor/normal.png), pointer;
     display: flex;
     align-items: center;
@@ -80,14 +80,14 @@ body {
 .navbar>ul {
     display: flex;
     align-items: center;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 .navbar li {
     position: relative;
     font-size: 14px;
     margin: 0 4px;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.288);
     transition: 0.2s;
     -webkit-tap-highlight-color: transparent;
@@ -290,7 +290,7 @@ li>ul {
     font-weight: 600;
     padding: 4px;
     min-width: 200px;
-    /*    background: var(--color-white-400);*/
+    /*background: var(--color-white-400);*/
     background: hsla(var(--system-color-light-hsl), .3);
     backdrop-filter: blur(11px);
     border-radius: 5px;
@@ -327,7 +327,7 @@ li>ul>li>button {
     border-radius: 5px;
     transition: 80ms;
     font-size: 14px;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 li>ul>li>button:hover {
@@ -349,8 +349,8 @@ li>.menu__container {
     right: 50%;
     height: 24rem;
     transform: translateX(50%);
-    background-color: hsla(var(--system-color-light-hsl), .3);
-    backdrop-filter: blur(11px);
+    background-color: hsla(var(--system-color-light-hsl), .5);
+    backdrop-filter: blur(0px);
     border: 1px solid rgba(70, 50, 77, 0.308);
     box-shadow: 0 7px 15px rgba(26, 26, 26, 0.24);
     overflow: hidden;
@@ -420,7 +420,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     font-size: 20px;
     transition: all 120ms ease-in-out;
     font-family: "Lexend", sans-serif;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 .sound,
@@ -545,10 +545,11 @@ li>.menu__container>.grid__controling .control_center--grid {
     display: flex;
     align-items: center;
     position: fixed;
-    padding: 0.25rem 0.25rem 0 0.25rem;
-    bottom: 3%;
+    padding: 0.25rem 0.37rem 0 0.37rem;
+    bottom: 0%;
     left: 50%;
-    height: 65px;
+    height: 67px;
+    margin-bottom: 11.2px;
     transform: translateX(-50%);
     backdrop-filter: blur(20px);
     border: 1px solid var(--color-white-200);
@@ -594,36 +595,22 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .dock .icon::after {
-    font-size: 15px;
+    font-size: 13px;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.39);
-    top: -25%;
+    top: -20%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    width: 95px;
+    width: 80px;
     height: 25px;
-    padding: 4px 3px 10px;
+    padding: 4px 3px 4px;
     border-radius: 8px;
     font-family: "lexend", sans-serif;
     font-weight: 700;
-    clip-path: polygon(100% 0%,
-            100% 0%,
-            0% 0%,
-            0% 0%,
-            0% 0%,
-            0% 0%,
-            0% 0%,
-            0% 0%,
-            0% 80%,
-            43% 80%,
-            50% 101%,
-            57% 80%,
-            100% 80%,
-            100% 0%);
 }
 
 .dock .icon:nth-child(1):hover::after {
@@ -643,7 +630,7 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .dock .icon:nth-child(5):hover::after {
-    content: "Itunes Music";
+    content: "Itunes";
 }
 
 .dock .icon:nth-child(6):hover::after {
@@ -686,11 +673,11 @@ li>.menu__container>.grid__controling .control_center--grid {
 
 .dock .icon:hover img {
     margin: 0 0 70px 0;
-    width: 9.0rem;
+    width: 8.0rem;
 }
 
 .dock .icon:hover+.icon img {
-    width: 5.6rem;
+    width: 5.0rem;
     margin: 0 0 25px 0;
 }
 
@@ -866,7 +853,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     border-radius: 9px;
     transition: 0.2s;
     padding: 5px;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 .window__taskbar--right .containerSearch {
@@ -1063,7 +1050,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     display: flex;
     place-items: center;
     flex-direction: column;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 .launchpad .child-launchpad img {
@@ -1369,7 +1356,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     margin: 0 0 4px 0;
     display: flex;
     flex-direction: row;
-    cursor: url(../cursor/link.png), pointer;
+    cursor: url(../cursor/normal.png), pointer;
 }
 
 .context-menu ul button:hover {

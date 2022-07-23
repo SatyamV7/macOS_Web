@@ -106,7 +106,13 @@
             <li class="leftLi hidden">View</li>
             <li class="leftLi hidden">Go</li>
             <li class="leftLi hidden">Window</li>
-            <li class="leftLi">Help</li>
+            <li class="leftLi">Help
+            <ul>
+                <li>
+                    <button onclick="window.location.href = 'https://codingsatyamweb.netlify.app/about_me/';">About the Developer</button>
+                </li>
+            </ul>
+        </li>
         </ul>
 
         <ul class="navbar__right">
@@ -275,7 +281,7 @@
                 </div>
             </li>
             <li class="clock">
-                <span id="date" class="hidden"></span>
+                <span id="date"></span>
                 <span id="clock"></span>
             </li>
         </ul>
@@ -298,7 +304,7 @@
     </div>
     <div class="dock" style="cursor: url(./cursor/normal.png), pointer;">
         <button class="icon" style="cursor: url(./cursor/normal.png), pointer;">
-            <img src="./icon/dock/finder.png" alt="Finder Logo" class="hidden">
+            <img src="./icon/dock/finder.png" alt="Finder Logo">
         </button>
         <button accesskey="o" style="cursor: url(./cursor/normal.png), pointer;" class="block-point icon onhover"
             onclick="handleOpenLaunching()">
@@ -315,17 +321,17 @@
             <img src="./icon/dock/music.png" alt="Music Logo">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" class="icon open_vscode">
-            <img src="./icon/dock/vscode.png" alt="Vscode apps" class="hidden">
+            <img src="./icon/dock/vscode.png" alt="Vscode apps">
             <hr class="point hidden" id="point-vscode">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" class="icon">
-            <img src="./icon/dock/mail.png" alt="Mail Logo" class="hidden">
+            <img src="./icon/dock/mail.png" alt="Mail Logo">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" class="icon">
-            <img src="./icon/dock/photos.png" alt="Photos Logo" class="hidden">
+            <img src="./icon/dock/photos.png" alt="Photos Logo">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" class="icon open_map">
-            <img src="./icon/dock/maps.png" alt="maps Logo" class="hidden">
+            <img src="./icon/dock/maps.png" alt="maps Logo">
             <hr class="point hidden" id="point-maps">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" class="icon open-cal">
@@ -337,12 +343,12 @@
             <hr class="point hidden" id="point-note">
         </button>
         <button style="cursor: url(./cursor/normal.png), pointer;" accesskey="t" class="icon opening">
-            <img src="./icon/dock/terminal.png" alt="Terminal Logo" class="hidden">
+            <img src="./icon/dock/terminal.png" alt="Terminal Logo">
             <hr class="point" id="point-terminal">
         </button>
         <button class="icon">
             <img style="cursor: url(./cursor/normal.png), pointer;" src="./icon/dock/preferences.png"
-                alt="Preferences Logo" class="hidden">
+                alt="Preferences Logo">
         </button>
     </div>
     <div class="launchpad" id="launchpad">
