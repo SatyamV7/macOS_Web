@@ -14,8 +14,8 @@
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'Static_Cache v3';
-const RUNTIME = 'Dynamic_Cache v3';
+const PRECACHE = 'Static_Cache v2';
+const RUNTIME = 'Dynamic_Cache v2';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -26,6 +26,7 @@ const PRECACHE_URLS = [
   '/Css/style.css',
   '/cursor/normal.png',
   '/icon/icons.woff2',
+  '/icon/icons2.woff2',
   '/javascript/app.js',
   '/javascript/script.js',
 ];
