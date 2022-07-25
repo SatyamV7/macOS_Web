@@ -23,10 +23,9 @@ const PRECACHE_URLS = [
   'index.html',
   '/favicon.ico',
   '/Css/font.css',
-  '/icon/icons.woff2',
   '/Css/style.css',
-  '/cursor/link.png',
   '/cursor/normal.png',
+  '/icon/icons.woff2',
   '/javascript/app.js',
   '/javascript/script.js',
 ];
