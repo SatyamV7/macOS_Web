@@ -860,6 +860,11 @@ li>.menu__container>.grid__controling .control_center--grid {
     transition: 0.2s;
     padding: 5px;
     cursor: url(../cursor/normal.png), pointer;
+    font-family: 'Material Icons' !important;
+}
+
+.material-icons {
+    font-family: 'Material Icons' !important;
 }
 
 .window__taskbar--right .containerSearch {
