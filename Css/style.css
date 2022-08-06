@@ -1,8 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Roboto:wght@100&display=swap);
 @import url(./font.css);
 
 :root {
@@ -51,7 +46,7 @@ input {
 body {
     height: 100vh;
     user-select: none;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
     background: url("../background/big-sur-dark.jpg");
     cursor: url(../cursor/normal.png), pointer;
     background-size: cover;
@@ -327,7 +322,7 @@ li>ul>li>button {
     display: flex;
     flex-direction: row;
     text-align: left;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
     font-weight: 100;
     padding: 4px 8px;
     border-radius: 5px;
@@ -425,7 +420,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     width: 100%;
     font-size: 20px;
     transition: all 120ms ease-in-out;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
     cursor: url(../cursor/normal.png), pointer;
 }
 
@@ -476,7 +471,7 @@ li>.menu__container>.grid__controling .control_center--grid {
 .grid__controling .control_center--grid button p {
     display: block;
     font-size: 14px;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
 }
 
 .nobtn {
@@ -551,11 +546,11 @@ li>.menu__container>.grid__controling .control_center--grid {
     display: flex;
     align-items: center;
     position: fixed;
-    padding: 0.25rem 0.37rem 0 0.37rem;
+    padding: 0.25rem 0.17rem 0 0.17rem;
     bottom: 0%;
     left: 50%;
-    height: 67px;
-    margin-bottom: 11.2px;
+    height: 60px;
+    margin-bottom: 4.5px;
     transform: translateX(-50%);
     backdrop-filter: blur(20px);
     border: 1px solid var(--color-white-200);
@@ -571,8 +566,8 @@ li>.menu__container>.grid__controling .control_center--grid {
 }
 
 .dock .point {
-    width: 6px;
-    height: 6px;
+    width: 0px;
+    height: 0px;
     margin: 0;
     background: #f08080;
     border-radius: 50%;
@@ -615,7 +610,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     height: 25px;
     padding: 4px 3px 4px;
     border-radius: 8px;
-    font-family: "lexend", sans-serif;
+    font-family: 'SF Pro Display';
     font-weight: 700;
 }
 
@@ -890,7 +885,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     color: var(--color-black);
     font-size: 18px;
     padding-right: 10px;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
 }
 
 .buttonoperator,
@@ -954,7 +949,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     width: 85%;
     padding-left: 10px;
     height: 10%;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
     font-size: 18px;
     outline: none;
     color: var(--color-black);
@@ -1033,8 +1028,8 @@ li>.menu__container>.grid__controling .control_center--grid {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-top: 1px solid rgba(255, 255, 255, 0.582);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.582);
+    border-top: 1px solid rgba(255, 255, 255, 0.219);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.219);
     border-right: 1px solid rgba(255, 255, 255, 0.219);
     border-left: 1px solid rgba(255, 255, 255, 0.219);
     border-radius: 4px;
@@ -1373,7 +1368,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     height: 100%;
     text-align: left;
     font-size: 15px;
-    font-family: "Lexend", sans-serif;
+    font-family: 'SF Pro Display';
     border-radius: 5px;
     padding: 4px 8px;
     transition: 80ms;

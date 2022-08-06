@@ -45,3 +45,11 @@
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+}
