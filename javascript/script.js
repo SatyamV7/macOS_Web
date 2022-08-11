@@ -336,6 +336,7 @@ function digi() {
     } else {
         clockElement.innerHTML = hour + ":" + minute + " AM";
     }
+    setTimeout(digi, 1000);
 }
 
 let terminal_line_html = $(".terminal_line").html();
