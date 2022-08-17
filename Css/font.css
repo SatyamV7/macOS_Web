@@ -53,3 +53,8 @@
     font-display: swap;
     src: url(../font/SFPRODISPLAYREGULAR.OTF);
 }
+
+@font-face {
+    font-family: Lexend;
+    src: url(../font/LEXEND-REGULAR.TTF);
+}

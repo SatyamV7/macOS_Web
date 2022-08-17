@@ -46,7 +46,7 @@ input {
 body {
     height: 100vh;
     user-select: none;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     background: url("../background/big-sur-dark.jpg");
     cursor: url(../cursor/normal.png), pointer;
     background-size: cover;
@@ -322,7 +322,7 @@ li>ul>li>button {
     display: flex;
     flex-direction: row;
     text-align: left;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     font-weight: 100;
     padding: 4px 8px;
     border-radius: 5px;
@@ -420,7 +420,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     width: 100%;
     font-size: 20px;
     transition: all 120ms ease-in-out;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     cursor: url(../cursor/normal.png), pointer;
 }
 
@@ -471,7 +471,7 @@ li>.menu__container>.grid__controling .control_center--grid {
 .grid__controling .control_center--grid button p {
     display: block;
     font-size: 14px;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
 }
 
 .nobtn {
@@ -610,7 +610,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     height: 25px;
     padding: 4px 3px 4px;
     border-radius: 8px;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     font-weight: 700;
 }
 
@@ -885,7 +885,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     color: var(--color-black);
     font-size: 18px;
     padding-right: 10px;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
 }
 
 .buttonoperator,
@@ -949,7 +949,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     width: 85%;
     padding-left: 10px;
     height: 10%;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     font-size: 18px;
     outline: none;
     color: var(--color-black);
@@ -1368,7 +1368,7 @@ li>.menu__container>.grid__controling .control_center--grid {
     height: 100%;
     text-align: left;
     font-size: 15px;
-    font-family: 'SF Pro Display';
+    font-family: 'Lexend';
     border-radius: 5px;
     padding: 4px 8px;
     transition: 80ms;
