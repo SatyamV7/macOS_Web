@@ -1,6 +1,6 @@
 # macOS Web
 
-This open source project aims to replicate some of the macOS(Big Sur, at the time of writing)'s desktop experience on web, using HTML, CSS & JavaScript!
+This open source project aims to replicate some of the macOS Big Sur desktop experience on web using HTML, CSS & JavaScript!
 
 🔗🔗 [macOS Web](https://macosweb.netlify.app/)
 
