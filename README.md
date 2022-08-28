@@ -14,7 +14,7 @@ I've always been very fascinated with macOS, and have never owned a Macbook. So 
 
 # Stack
 
-- Framework - JavaScript
+- Framework - None!!
 - Component Library - None!!
 - Styling Solution - CSS.
 
