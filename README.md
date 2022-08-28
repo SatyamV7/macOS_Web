@@ -4,6 +4,10 @@ This open source project aims to replicate some of the macOS(Big Sur, at the tim
 
 🔗🔗 [macOS Web](https://macosweb.netlify.app/)
 
+
+
+[![macOS Web](https://user-images.githubusercontent.com/96859890/187077045-68395248-f7e8-470b-a6d0-71e10d53d7a7.png)](https://macosweb.netlify.app/)
+
 # Why
 
 I've always been very fascinated with macOS, and have never owned a Macbook. So I'm making the most beautiful aspect of macOS, its desktop, myself. For web. Inspired from [WinXP](https://winxp.now.sh/).
