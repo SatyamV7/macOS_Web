@@ -105,9 +105,9 @@ function handleNotes() {
 }
 // Notes app function end
 function handleMinimize(Minimize) {
-    Minimize.style.maxWidth = "80%";
-    Minimize.style.minWidth = "70%";
-    Minimize.style.height = "430px";
+    Minimize.style.maxWidth = "962px";
+    Minimize.style.minWidth = "962px";
+    Minimize.style.height = "432px";
 }
 function handleFullScreen(maximize) {
     maximize.style.maxWidth = "100%";
