@@ -2,7 +2,7 @@
 
 This open source project aims to replicate some of the macOS(Big Sur, at the time of writing)'s desktop experience on web, using HTML, CSS & JavaScript!
 
-🔗🔗 [Demo](https://macosweb.netlify.app/)
+🔗🔗 [macOS Web](https://macosweb.netlify.app/)
 
 # Why
 
@@ -23,4 +23,7 @@ I've always been very fascinated with macOS, and have never owned a Macbook. So 
 
 Sure, open an issue, point out errors, and what not. Wanna fix something yourselves, you're welcome to open a PR and I appreciate it.
 
-![Hosted on Netlify](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/1200px-Netlify_logo.svg.png)
+
+# Hosted on Netlify
+
+[![Hosted on Netlify](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/1200px-Netlify_logo.svg.png)](netlify.app)
