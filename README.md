@@ -26,4 +26,4 @@ Sure, open an issue, point out errors, and what not. Wanna fix something yoursel
 
 # Hosted on Netlify
 
-[![Hosted on Netlify](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/1200px-Netlify_logo.svg.png)](netlify.app)
+[![Hosted on Netlify](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/1200px-Netlify_logo.svg.png)](https://netlify.app)
