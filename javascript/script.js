@@ -110,9 +110,9 @@ function handleMinimize(Minimize) {
     Minimize.style.height = "430px";
 }
 function handleFullScreen(maximize) {
-    maximize.style.maxWidth = "95%";
-    maximize.style.minWidth = "95%";
-    maximize.style.height = "90%";
+    maximize.style.maxWidth = "100%";
+    maximize.style.minWidth = "100%";
+    maximize.style.height = "100%";
 }
 
 function close_window(close, point, appName) {

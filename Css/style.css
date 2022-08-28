@@ -688,10 +688,10 @@ li>.menu__container>.grid__controling .control_center--grid {
 
 .container__Window {
     width: 100%;
-    height: 90%;
+    height: -webkit-fill-available;
     justify-content: space-around;
     align-items: center;
-    display: none;
+    margin-top: 31.19px;
 }
 
 .window {
@@ -752,7 +752,6 @@ li>.menu__container>.grid__controling .control_center--grid {
     font-size: 14px;
     color: transparent;
     font-weight: 900;
-    font-family: ROG Fonts;
     cursor: url(./cursor/normal.png), pointer;
 }
 
