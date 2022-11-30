@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../icon/icons.woff2) format('woff2');
+    src: url(/assets/icon/icons.woff2) format('woff2');
 }
 
 .material-icons-round {
@@ -27,7 +27,7 @@
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(../icon/icons2.woff2) format('woff2');
+    src: url(/assets/icon/icons2.woff2) format('woff2');
 }
 
 .material-icons {
@@ -51,10 +51,10 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+    src: url(/assets/font/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
     font-family: Lexend;
-    src: url(../font/LEXEND-REGULAR.TTF);
+    src: url(/assets/font/LEXEND-REGULAR.TTF);
 }
